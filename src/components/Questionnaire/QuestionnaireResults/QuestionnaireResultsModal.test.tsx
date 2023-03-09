@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom";
-import {QuestionnaireResultsModal} from "./QuestionnaireResultsModal";
+import {QuestionnaireResultsModal} from "@components";
 import {fireEvent, render} from "@testing-library/react";
 import * as React from 'react';
 

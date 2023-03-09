@@ -11,10 +11,10 @@ import {Stack} from "@mui/material";
 import {useTranslation} from "react-i18next";
 
 //Can not shorten import, tests fail to recognize i18n.use...
-import {GraphListK} from "./GraphListK";
-import {TableListK} from "./TableListK";
-import {ResultDescriptionILS} from "./ResultDescriptionILS";
-import {ResultDescriptionListK} from "./ResultDescriptionListK";
+import {GraphListK} from "@components";
+import {TableListK} from "@components";
+import {ResultDescriptionILS} from "@components";
+import {ResultDescriptionListK} from "@components";
 import {GraphILS} from "./GraphILS";
 import {TableILS} from './TableILS';
 
