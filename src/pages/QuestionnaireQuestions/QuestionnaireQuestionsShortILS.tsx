@@ -3,12 +3,12 @@ import {AuthContext} from "@services";
 import {Skeleton} from "@mui/material";
 import {TableILS} from "../../components/Questionnaire/QuestionnaireQuestions/TableILS";
 
-export const QuestionnaireQuestions = () => {
+export const QuestionnaireQuestionsShortILS = () => {
     const authcontext = useContext(AuthContext)
 
     return(
-        authcontext.isAuth ? <Skeleton /> : <TableILS/>
+        authcontext.isAuth ? <Skeleton /> : TableILS(false)
     )
 }
 
-export default QuestionnaireQuestions
+export default QuestionnaireQuestionsShortILS
